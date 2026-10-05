@@ -1,178 +1,1391 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A professional portfolio website showcasing my skills and work.">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <title>Omkar Shinde | Full Stack Web Developer</title>
+
+    <meta name="description"
+        content="Portfolio of Omkar Shinde, a Full Stack Web Developer skilled in Java, JavaScript, React, Node.js, Express.js, MySQL and MongoDB.">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <h1>OMKAR SHINDE</h1>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-   
-    <section id="home" class="hero">
-        
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h1>Hello, I'm Omkar Shinde</h1>
-                <p>A FULL STACK WEB DEVELOPER.</p>
-                <a href="#portfolio" class="btn-primary">Explore My Work</a>
-            </div>
-            <div class="hero-image">
-                <img src="/Media/omkar.jpg" alt="Omkar Shinde" class="profile-img">
-            </div>
-        </div>
-    </section>
+<!-- ================= NAVBAR ================= -->
 
-   
-<section id="about" class="about">
-    <div class="container about-container">
-        <h2 >About Me</h2>
-        <p>    As a passionate Full Stack Developer proficient in the MERN stack, 
-            I specialize in building scalable and efficient web applications. With a solid foundation in 
-            Data Structures and Algorithms (DSA) in Java,
-            I am excited to leverage my problem-solving skills and technical expertise to contribute to 
-            innovative software development 
-            projects and deliver high-quality solutions
-        </p>
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>OS<span>/&gt;</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#internships">Internships</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#activities">Activities</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">
+            Let's Connect
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
     </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-bg-grid"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="availability">
+                <span></span>
+                Available for Opportunities
+            </div>
+
+            <p class="hero-small">HELLO, I'M</p>
+
+            <h1>
+                Omkar <span>Shinde</span>
+            </h1>
+
+            <h2>
+                Full Stack Web Developer
+            </h2>
+
+            <p class="hero-description">
+                I build scalable, responsive and user-focused web
+                applications using modern frontend, backend and
+                database technologies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/omkarshinde632"
+                    target="_blank"
+                    aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/omkar-shinde-627a11347"
+                    target="_blank"
+                    aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://instagram.com/omkarshinde632"
+                    target="_blank"
+                    aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="mailto:shindeomkar9385@gmail.com"
+                    aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image reveal">
+
+            <div class="hero-image-wrapper">
+
+                <div class="image-ring"></div>
+
+                <img src="/Media/omkar.jpg"
+                    alt="Omkar Shinde">
+
+            </div>
+
+            <div class="floating-card floating-card-one">
+
+                <div class="floating-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <strong>200+</strong>
+                    <span>DSA Problems</span>
+                </div>
+
+            </div>
+
+            <div class="floating-card floating-card-two">
+
+                <div class="floating-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+
+                <div>
+                    <strong>9+</strong>
+                    <span>Full Stack Projects</span>
+                </div>
+
+            </div>
+
+            <div class="hero-code-decoration">
+                <span>&lt;</span>
+                <span>/&gt;</span>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
 
-   
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <div class="projects">
+<!-- ================= ABOUT ================= -->
 
-                <div class="project-card">
-                    <img src="/Media/TradeForge.png" alt="StockTradingPlatform">
-                    <h3>TradeForge - Stock Trading Platform</h3>
-                    <p>
-                        TradeForge is a full-stack trading platform where users can trade stocks,
-                        invest in mutual funds, and track their portfolio. Built with React, Node.js, 
-                        Express, and MongoDB, it features a trading dashboard, API integration, 
-                        and mobile-friendly interfaces.
-                        </p>
-                    <a href="https://github.com/omkarshinde632/StockTradingPlatform" class="btn-link">View Project</a>
-                </div>
+<section id="about" class="about section">
 
-                <div class="project-card">
-                    <img src="/Media/ShopEasy.png" alt="E-commerce page">
-                    <h3>ShopEasy <br>E-commerce site</h3>
-                    <p>Shopeasy is a full-stack e-commerce site built with Node.js, Express, MySQL,
-                         and EJS for browsing, searching, and purchasing 
-                         products with user accounts and cart management.</p>
-                    <a href="https://github.com/omkarshinde632/ShopEasyEcommerce" class="btn-link">View Project</a>
-                </div>
-
-                <div class="project-card">
-                    <img src="/Media/TravelListing.png" alt="Interactive Quiz application">
-                    <h3>WanderLust - Travel Listing Site</h3>
-                    <p>
-                        WanderLust is a travel listing web app built with Node.js, Express, MongoDB,
-                        and EJS, allowing users to create, view, edit, and delete destination listings.</p>
-                    <a href="https://github.com/omkarshinde632/WanderLust" class="btn-link">View Project</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">
-                    <img src="/Media/java-4-logo.png" alt="Java">
-                    <p>Java</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/icone-html-orange.png" alt="HTML">
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/css3-logo-png-transparent.png" alt="CSS">
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/JavaScript-Logo (1).png" alt="JavaScript">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/express-js.png" alt="express-js">
-                    <p>Express.js</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/node-js.png" alt="node-js">
-                    <p>Node.js</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/reactJS.png" alt="reactJS">
-                    <p>React.js</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/MySQL-Logo-300x300.png.webp" alt="MySQL">
-                    <p>MySQL</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/mongodb-logo.png" alt="MongoDB">
-                    <p>MongoDB</p>
-                </div>
-                <div class="skill">
-                    <img src="/Media/GitHub.png" alt="GitHub">
-                    <p>GitHub</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to collaborate or chat, feel free to reach out to me at <a href="mailto:shindeomkar9385@gmail.com">shindeomkar9385@gmail.com</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <footer class="social-footer">
     <div class="container">
-        <a href="https://instagram.com/omkarshinde632" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/omkar-shinde-627a11347"  aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/omkarshinde632" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
+
+        <div class="section-heading reveal">
+            <span>01. ABOUT ME</span>
+            <h2>Building Ideas Into <strong>Web Experiences</strong></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p>
+                    I am a Computer Engineering student and Full Stack
+                    Web Developer passionate about building practical
+                    and user-friendly web applications.
+                </p>
+
+                <p>
+                    My development journey includes working with
+                    Java, JavaScript, React.js, Node.js, Express.js,
+                    MySQL and MongoDB to create complete full-stack
+                    solutions.
+                </p>
+
+                <p>
+                    Along with development, I actively practice
+                    Data Structures and Algorithms and continuously
+                    work on improving my problem-solving skills.
+                </p>
+
+                <div class="about-stats">
+
+                    <div>
+                        <strong>9+</strong>
+                        <span>Projects</span>
+                    </div>
+
+                    <div>
+                        <strong>200+</strong>
+                        <span>DSA Problems</span>
+                    </div>
+
+                    <div>
+                        <strong>2</strong>
+                        <span>Hackathons</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="code-window reveal">
+
+                <div class="window-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>omkar.js</span>
+
+                </div>
+
+                <div class="code-content">
+
+                    <p>
+                        <span class="keyword">const</span>
+                        developer = {
+                    </p>
+
+                    <p class="indent">
+                        name:
+                        <span class="string">
+                            "Omkar Shinde"
+                        </span>,
+                    </p>
+
+                    <p class="indent">
+                        role:
+                        <span class="string">
+                            "Full Stack Developer"
+                        </span>,
+                    </p>
+
+                    <p class="indent">
+                        languages: [
+                        <span class="string">"Java"</span>,
+                        <span class="string">"JavaScript"</span>
+                        ],
+                    </p>
+
+                    <p class="indent">
+                        frontend: [
+                        <span class="string">"React"</span>,
+                        <span class="string">"HTML"</span>,
+                        <span class="string">"CSS"</span>
+                        ],
+                    </p>
+
+                    <p class="indent">
+                        backend: [
+                        <span class="string">"Node.js"</span>,
+                        <span class="string">"Express.js"</span>
+                        ],
+                    </p>
+
+                    <p class="indent">
+                        databases: [
+                        <span class="string">"MongoDB"</span>,
+                        <span class="string">"MySQL"</span>
+                        ],
+                    </p>
+
+                    <p class="indent">
+                        passion:
+                        <span class="string">"Building"</span>
+                    </p>
+
+                    <p>};</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
+
+</section>
+
+
+<!-- ================= INTERNSHIPS ================= -->
+
+<section id="internships" class="internships section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span>02. EXPERIENCE</span>
+            <h2>Internships & <strong>Experience</strong></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-top">
+
+                        <div>
+                            <h3>Software Development Intern</h3>
+                            <h4>Bluestock Fintech</h4>
+                        </div>
+
+                        <span class="timeline-date">
+                            Dec 2025 – Jan 2026
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Worked on software development tasks involving
+                        modern web technologies and backend development.
+                        Gained practical exposure to Node.js, Python,
+                        Django, PostgreSQL, React, Next.js, Tailwind CSS
+                        and Bootstrap in a fintech-oriented environment.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                        <span>React</span>
+                        <span>Next.js</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-top">
+
+                        <div>
+                            <h3>Web Design & Development Intern</h3>
+                            <h4>TechnoHacks Solutions Pvt. Ltd.</h4>
+                        </div>
+
+                        <span class="timeline-date">
+                            Jan 2025 – Feb 2025
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Completed a remote virtual internship focused on
+                        web design and development. Developed a portfolio
+                        website and worked on the frontend of ShopEasy,
+                        strengthening practical skills in HTML, CSS and
+                        JavaScript.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Web Development</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span>03. PROJECTS</span>
+            <h2>Featured <strong>Projects</strong></h2>
+        </div>
+
+        <div class="projects-grid">
+
+
+            <!-- 01 GIGSETU -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/gigSetu.png"
+                        alt="GigSetu Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/GigSetu"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View GigSetu on GitHub">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">01</div>
+
+                    <h3>GigSetu</h3>
+
+                    <p class="project-subtitle">
+                        Smart Credit & Financial Platform for Gig Workers
+                    </p>
+
+                    <p>
+                        A full-stack fintech platform designed for
+                        gig workers with earnings tracking, digital
+                        wallet, credit scoring, loan eligibility and
+                        financial services.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>EJS</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 02 TRADEFORGE -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/TradeForge.png"
+                        alt="TradeForge Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/StockTradingPlatform"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View TradeForge on GitHub">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">02</div>
+
+                    <h3>TradeForge</h3>
+
+                    <p class="project-subtitle">
+                        Stock Trading Platform
+                    </p>
+
+                    <p>
+                        A full-stack stock trading platform with
+                        authentication, holdings, positions, orders
+                        and an interactive dashboard for buying and
+                        selling.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 03 WANDERLUST -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/TravelListing.png"
+                        alt="WanderLust Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/WanderLust"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View WanderLust on GitHub">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">03</div>
+
+                    <h3>WanderLust</h3>
+
+                    <p class="project-subtitle">
+                        Travel Listing Platform
+                    </p>
+
+                    <p>
+                        A travel listing platform where users can
+                        discover, create, edit and manage property
+                        listings with authentication, reviews and
+                        booking functionality.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>EJS</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 04 ECOMMERCE -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/ShopEasy.png"
+                        alt="E-Commerce Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/ShopEasyEcommerce"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View E-Commerce Project">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">04</div>
+
+                    <h3>ShopEasy</h3>
+
+                    <p class="project-subtitle">
+                        Full Stack E-Commerce Platform
+                    </p>
+
+                    <p>
+                        A full-stack e-commerce application with
+                        product browsing, search, product details,
+                        authentication, shopping cart, sessions,
+                        orders and customer feedback.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MySQL</span>
+                        <span>EJS</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 05 MIND MIRROR -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/MindMirror.png"
+                        alt="MindMirror Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/MindMirror"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View MindMirror Project">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">05</div>
+
+                    <h3>MindMirror</h3>
+
+                    <p class="project-subtitle">
+                        Mental Wellness & Self-Reflection Platform
+                    </p>
+
+                    <p>
+                        A web-based platform for daily mental health tracking
+                        of users and a quick graph for understanding their mood patterns of previous days.
+                        If the situation is worse then provided mental health help and support.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>JavaScript</span>
+                        <span>MongoDB</span>
+                        <span>EJS</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 06 SMART CAMPUS LIVING -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/SmartCampusLiving.png"
+                        alt="Smart Campus Living Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/SmartCampusLiving"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View Smart Campus Living Project">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">06</div>
+
+                    <h3>Smart Campus Living</h3>
+
+                    <p class="project-subtitle">
+                        Hostel & Mess Booking Platform
+                    </p>
+
+                    <p>
+                        A student-focused platform for discovering
+                        hostels and mess facilities by locality,
+                        managing owner listings, bookings, ratings
+                        and connected hostel-mess options.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>EJS</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 07 TRAVELMIND -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/TravelMind.png"
+                        alt="TravelMind Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/TravelMind"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View TravelMind Project">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">07</div>
+
+                    <h3>TravelMind</h3>
+
+                    <p class="project-subtitle">
+                        Travel Planning & Discovery Platform
+                    </p>
+
+                    <p>
+                        AI-powered travel discovery engine which aggregates real-time travel 
+                         options and uses AI to generate instant, intelligent route and budget 
+                         summaries—helping users compare destinations and make faster, data-driven trip decisions.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>MongoDB</span>
+                        <span>JavaScript</span>
+                        <span>Rest APIs</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- 08 AI CODE EDITOR -->
+
+            <article class="project-card reveal">
+
+                <div class="project-image">
+
+                    <img src="/Media/AI_CodeEditor.png"
+                        alt="AI Code Editor Project">
+
+                    <div class="project-overlay">
+
+                        <a href="https://github.com/omkarshinde632/AI_CodeEditor"
+                            target="_blank"
+                            class="project-link"
+                            aria-label="View AI Code Editor Project">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-number">08</div>
+
+                    <h3>AI Code Editor</h3>
+
+                    <p class="project-subtitle">
+                        AI-Powered Code Review Tool
+                    </p>
+
+                    <p>
+                        An AI-assisted development tool built to
+                        review source code, identify potential issues
+                        and provide intelligent suggestions to improve
+                        code quality.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Rest APIs</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span>04. TECHNOLOGIES</span>
+            <h2>Technical <strong>Skills</strong></h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <img src="/Media/java-4-logo.png" alt="Java">
+                <h3>Java</h3>
+                <span>Programming</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/icone-html-orange.png" alt="HTML">
+                <h3>HTML</h3>
+                <span>Frontend</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/css3-logo-png-transparent.png" alt="CSS">
+                <h3>CSS</h3>
+                <span>Frontend</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/JavaScript-Logo (1).png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <span>Programming</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/express-js.png" alt="Express.js">
+                <h3>Express.js</h3>
+                <span>Backend</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/node-js.png" alt="Node.js">
+                <h3>Node.js</h3>
+                <span>Backend</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/reactJS.png" alt="React.js">
+                <h3>React.js</h3>
+                <span>Frontend</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/MySQL-Logo-300x300.png.webp" alt="MySQL">
+                <h3>MySQL</h3>
+                <span>Database</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/mongodb-logo.png" alt="MongoDB">
+                <h3>MongoDB</h3>
+                <span>Database</span>
+            </div>
+
+            <div class="skill-card reveal">
+                <img src="/Media/GitHub.png" alt="GitHub">
+                <h3>Git & GitHub</h3>
+                <span>Version Control</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ACHIEVEMENTS ================= -->
+
+<section id="achievements" class="achievements section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span>05. MILESTONES</span>
+            <h2>Achievements & <strong>Highlights</strong></h2>
+        </div>
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card achievement-featured reveal">
+
+                <div class="achievement-number">#1</div>
+
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-label">
+                        ALL INDIA RANK 1
+                    </span>
+
+                    <h3>
+                        Mood Indigo 2023 – Aagaaz Street Play Competition
+                    </h3>
+
+                    <p>
+                        Secured <strong>All India Rank 1</strong> in the
+                        Aagaaz Street Play Competition at
+                        <strong>IIT Bombay</strong> during Mood Indigo 2023.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card reveal">
+
+                <div class="achievement-number">200+</div>
+
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-label">
+                        PROBLEM SOLVING
+                    </span>
+
+                    <h3>
+                        200+ LeetCode Questions Solved
+                    </h3>
+
+                    <p>
+                        Solved 200+ Data Structures and Algorithms
+                        problems on LeetCode to strengthen logical
+                        thinking and coding skills.
+                    </p>
+
+                    <a href="https://leetcode.com/u/omkarshinde632"
+                        target="_blank"
+                        class="achievement-link">
+
+                        View LeetCode Profile
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card reveal">
+
+                <div class="achievement-number">9+</div>
+
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-label">
+                        DEVELOPMENT
+                    </span>
+
+                    <h3>
+                        9+ Full Stack Projects Developed
+                    </h3>
+
+                    <p>
+                        Designed and developed 9+ full-stack projects
+                        covering web development, fintech, travel,
+                        trading and other real-world use cases.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="achievement-card reveal">
+
+                <div class="achievement-number">2</div>
+
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-people-group"></i>
+                </div>
+
+                <div class="achievement-content">
+
+                    <span class="achievement-label">
+                        HACKATHONS
+                    </span>
+
+                    <h3>
+                        Participated in 2 Hackathons
+                    </h3>
+
+                    <p>
+                        Participated in hackathons focused on building
+                        technology-driven solutions for practical
+                        real-world problems.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXTRACURRICULAR ================= -->
+
+<section id="activities" class="activities section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <span>06. BEYOND CODE</span>
+            <h2>Extracurricular <strong>Activities</strong></h2>
+        </div>
+
+        <div class="activities-grid">
+
+            <article class="activity-card reveal">
+
+                <div class="activity-image">
+
+                    <img src="/Media/mood-indigo.jpeg"
+                        alt="Mood Indigo Aagaaz Street Play">
+
+                    <div class="activity-image-overlay">
+
+                        <span>
+                            <i class="fa-solid fa-trophy"></i>
+                            AIR 1
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="activity-content">
+
+                    <span class="activity-category">
+                        STREET PLAY
+                    </span>
+
+                    <h3>
+                        Aagaaz Street Play Competition
+                    </h3>
+
+                    <h4>
+                        Mood Indigo 2023 · IIT Bombay
+                    </h4>
+
+                    <p>
+                        Participated in the Aagaaz Street Play Competition
+                        at Mood Indigo 2023, IIT Bombay, where our team
+                        secured <strong>All India Rank 1</strong>.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="activity-card reveal">
+
+                <div class="activity-image">
+
+                    <img src="/Media/college-anchoring.jpeg"
+                        alt="College Induction Program Anchoring">
+
+                    <div class="activity-image-overlay">
+
+                        <span>
+                            <i class="fa-solid fa-microphone"></i>
+                            ANCHORING
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="activity-content">
+
+                    <span class="activity-category">
+                        EVENT HOSTING
+                    </span>
+
+                    <h3>
+                        Anchoring – College Induction Program
+                    </h3>
+
+                    <h4>
+                        College Event
+                    </h4>
+
+                    <p>
+                        Anchored an event during the college induction
+                        program, engaging with students and helping
+                        manage the flow and energy of the event.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="activity-card reveal">
+
+                <div class="activity-image">
+
+                    <img src="/Media/public-speaking.jpg"
+                        alt="Public Speaking Medical College Event">
+
+                    <div class="activity-image-overlay">
+
+                        <span>
+                            <i class="fa-solid fa-microphone-lines"></i>
+                            SPEAKING
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="activity-content">
+
+                    <span class="activity-category">
+                        PUBLIC SPEAKING
+                    </span>
+
+                    <h3>
+                        Public Speaking – Medical College Event
+                    </h3>
+
+                    <h4>
+                        Speaking Activity
+                    </h4>
+
+                    <p>
+                        Participated in a public speaking activity at
+                        a medical college, developing communication,
+                        confidence and audience engagement skills.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact section">
+
+    <div class="container">
+
+        <div class="contact-box reveal">
+
+            <div class="contact-content">
+
+                <span class="contact-label">
+                    07. GET IN TOUCH
+                </span>
+
+                <h2>
+                    Let's Build Something
+                    <strong>Great Together</strong>
+                </h2>
+
+                <p>
+                    I'm open to software development opportunities,
+                    internships, collaborations and interesting
+                    projects. Feel free to reach out.
+                </p>
+
+                <a href="mailto:shindeomkar9385@gmail.com"
+                    class="btn btn-primary">
+
+                    Say Hello
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <a href="mailto:shindeomkar9385@gmail.com"
+                    class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <strong>
+                            shindeomkar9385@gmail.com
+                        </strong>
+                    </div>
+
+                </a>
+
+
+                <a href="https://github.com/omkarshinde632"
+                    target="_blank"
+                    class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <div>
+                        <span>GitHub</span>
+                        <strong>
+                            github.com/omkarshinde632
+                        </strong>
+                    </div>
+
+                </a>
+
+
+                <a href="https://www.linkedin.com/in/omkar-shinde-627a11347"
+                    target="_blank"
+                    class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div>
+                        <span>LinkedIn</span>
+                        <strong>
+                            Connect with me
+                        </strong>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <div>
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>OS<span>/&gt;</span>
+            </a>
+
+            <p>
+                Designed & Developed by Omkar Shinde
+            </p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Omkar Shinde. All Rights Reserved.
+        </p>
+
+    </div>
+
 </footer>
 
-<!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-        <div class="container">
-            <p>&copy; 2025 Omkar Shinde. All Rights Reserved.</p>
-        </div>
-    </footer>
+<!-- ================= SCRIPT ================= -->
+
+<script>
+
+    const revealElements =
+        document.querySelectorAll(".reveal");
+
+    const revealObserver =
+        new IntersectionObserver(
+            (entries, observer) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("active");
+
+                        observer.unobserve(entry.target);
+
+                    }
+
+                });
+
+            },
+            {
+                threshold: 0.12
+            }
+        );
+
+    revealElements.forEach(element => {
+        revealObserver.observe(element);
+    });
+
+</script>
+
 </body>
 </html>
+```
